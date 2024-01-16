@@ -1,0 +1,41 @@
+.header{
+    position: relative;
+    text-align: center;
+}
+.text{
+    color: azure;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    align-items: center;
+}
+.select{ 
+    
+    display: flex;
+    gap: 5px;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    
+   
+}
+button{
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    color: white;
+    background-color: #FF5400;
+}
+.popular{
+    display: flex;
+    margin-top: 50px;
+}
+.tour{
+    padding-right: 100px;
+    
+    
+}
