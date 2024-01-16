@@ -96,3 +96,44 @@ padding: 20px 10px 10px 20px;
     height: 284px;
     padding: 20px 10px 10px 20px; 
 }
+.place{
+    display: flex;
+    padding: 30px 10px 10px 10px;
+}
+.perfect{
+    display: grid;
+}
+.video{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.letter{
+    display: flex;
+    padding: 40px 10px 10px 10px;
+    gap: 100px;
+}
+.news{
+    display: grid;
+    border: 1px solid #FF5400;
+    border-radius: 5px;
+    padding: 20px 10px 10px 10px;
+    width: 100%;
+    height: 100%;
+    }
+.label{
+    display: grid;
+}
+input{
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: none;
+    padding: 10px 10px 10px 10px;
+
+}
+.chobi{
+    margin: auto;
+    padding-right: 0%;
+    border-radius: 5px;
+    width: 672px;
+height: 422px;
+}
