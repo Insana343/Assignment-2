@@ -20,8 +20,10 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    
-   
+    background: rgba(255, 255, 255, 0.30);
+    align-items: flex-start;
+    padding: 16px;
+
 }
 button{
     border: none;
@@ -38,4 +40,59 @@ button{
     padding-right: 100px;
     
     
+}
+.destination{
+    display: grid;
+    text-align: center;
+    gap: 5px;
+    padding: 20px;
+    max-width: 100%;
+    height: auto;
+}
+.image{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 5px; 
+    max-width: 50%;
+    height: auto;
+    padding: 10px 10px 10px 10px;
+    
+}
+.choose{
+    text-align: center;
+}
+.div{ 
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+    padding: 10px 10px 10px 10px;
+}
+.hotel{
+    border-radius: 16px;
+border: 1px solid rgba(251, 181, 99, 0.20);
+background: rgba(251, 181, 99, 0.05);
+width: 573px;
+height: 284px;
+padding: 20px 10px 10px 20px;
+margin-left: 20px;
+}
+.service{
+    border-radius: 16px;
+border: 1px solid rgba(41, 206, 246, 0.20);
+background: rgba(41, 206, 246, 0.05);
+width: 573px;
+height: 284px;
+padding: 20px 10px 10px 20px;
+}
+.deal{
+    justify-content: center;
+    margin: auto;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 50%;
+    height: 284px;
+    padding: 20px 10px 10px 20px; 
 }
